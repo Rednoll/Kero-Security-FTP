@@ -58,6 +58,6 @@ public class AccessAgentFtpResourceConfigurator implements KeroAccessAgentConfig
 			provider = KsdlProvider.addCacheWrap(provider);
 		}
 		
-		agent.addConfigurator(new KsdlAccessSchemeConfigurator(provider));
+		agent.addKsdlProvider(provider);
 	}
 }

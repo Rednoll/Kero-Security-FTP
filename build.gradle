@@ -84,7 +84,7 @@ dependencies {
 	implementation 'commons-net:commons-net:[3.6,)'
 	implementation 'org.mockftpserver:MockFtpServer:2.7.1'
 	
-	implementation 'com.github.rednoll:kero-security:[0.1,)'
+	implementation 'com.github.rednoll:kero-security:[0.1.38,)'
 }
 
 java {
