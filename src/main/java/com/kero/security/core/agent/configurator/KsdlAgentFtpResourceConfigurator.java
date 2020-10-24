@@ -7,7 +7,7 @@ import com.kero.security.ksdl.agent.configuration.KsdlAgentConfigurator;
 import com.kero.security.ksdl.provider.resource.KsdlTextResource;
 import com.kero.security.lang.provider.resource.FtpResource;
 
-public class AccessAgentFtpResourceConfigurator implements KsdlAgentConfigurator {
+public class KsdlAgentFtpResourceConfigurator implements KsdlAgentConfigurator {
 
 	private String server;
 	private int port;
@@ -19,7 +19,7 @@ public class AccessAgentFtpResourceConfigurator implements KsdlAgentConfigurator
 	
 	private Set<String> suffixes;
 
-	public AccessAgentFtpResourceConfigurator(String server, int port, String username, String pass, String path, Set<String> suffixes) {
+	public KsdlAgentFtpResourceConfigurator(String server, int port, String username, String pass, String path, Set<String> suffixes) {
 		
 		this.server = server;
 		this.port = port;
