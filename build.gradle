@@ -67,6 +67,11 @@ description = 'Kero-Security-FTP - intergration Kero-Security with FTP servers.'
 repositories {
 
 	mavenCentral()
+	
+	maven {
+
+		url "https://oss.sonatype.org/content/repositories/snapshots"
+	}
 }
 
 dependencies {
@@ -84,7 +89,8 @@ dependencies {
 	implementation 'commons-net:commons-net:[3.6,)'
 	implementation 'org.mockftpserver:MockFtpServer:2.7.1'
 	
-	implementation 'com.github.rednoll:kero-security:[0.1.38,)'
+	implementation 'com.github.rednoll:kero-security:0.2.0-SNAPSHOT'
+	implementation 'com.github.rednoll:kero-security-ksdl:0.0.0-SNAPSHOT'
 }
 
 java {

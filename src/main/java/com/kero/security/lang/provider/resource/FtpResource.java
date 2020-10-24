@@ -11,6 +11,8 @@ import org.apache.commons.net.ftp.FTPReply;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.kero.security.ksdl.provider.resource.KsdlTextResource;
+
 public class FtpResource implements KsdlTextResource {
 
 	private static Logger LOGGER = LoggerFactory.getLogger("Kero-Security-Ftp");
